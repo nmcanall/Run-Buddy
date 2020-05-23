@@ -127,18 +127,28 @@ button {
 }
 /* End jumbotron layout */
 
-/* What we do layout */
-.intro {
-    text-align: center;
-}
-
-.intro h2 {
+/* General content layout */
+.section-title {
     display: inline;
     font-size: 55px;
     color: #024e76;
     padding: 0 100px 20px 100px;
     border-bottom: 3px solid;
     border-color: #fce138;
+}
+
+.primary-border {
+    border-color: #fce138;
+}
+
+.secondary-border {
+    border-color: #39a6b2;
+}
+/* End general content layout */
+
+/* What we do layout */
+.intro {
+    text-align: center;
 }
 
 .intro p {
@@ -150,3 +160,38 @@ button {
     margin-top: 35px;
 }
 /* End what we do layout */
+
+/* What you do layout */
+.steps {
+    background-color: #fce138;
+    text-align: center;
+}
+
+.steps div {
+    margin-bottom: 80px;
+}
+
+.steps img {
+    width: 15%;
+    margin: 10px 0;
+}
+
+#step-1-img {
+    margin-top: 80px;
+}
+
+.steps p {
+    color: #39a6b2;
+    font-size: 23px;
+}
+
+.steps h3 {
+    color: #024e76;
+    font-size: 46px;
+    margin-top: 10px;
+}
+
+.steps span {
+    font-size: 38px;
+}
+/* End what you do layout */
