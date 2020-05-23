@@ -9,6 +9,10 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+section {
+    padding: 60px;
+}
+
 header {
     padding: 20px 35px;
     background-color: #39a6b2;
@@ -63,4 +67,23 @@ footer div {
 
 footer a {
     color: #024e76;
+}
+
+.jumbotron {
+    background-image: url("../images/hero-bg.jpg");
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.jumbo-form {
+    background-color: #fce138;
+    padding: 20px;
+    width: 500px;
+    color: #024e76;
+    border: solid 3px #024e76;
+    position: absolute;
+    bottom: 120px;
+    right: 140px;
 }
