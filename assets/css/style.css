@@ -15,6 +15,33 @@ section {
 }
 /* End whole page layouts */
 
+/* General content layout */
+.section-title {
+    display: inline;
+    font-size: 55px;
+    color: #024e76;
+    padding: 0 100px 20px 100px;
+    border-bottom: 3px solid;
+    border-color: #fce138;
+}
+
+.primary-border {
+    border-color: #fce138;
+}
+
+.secondary-border {
+    border-color: #39a6b2;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.text-right {
+    text-align: right;
+}
+/* End general content layout */
+
 /* Header layout */
 header {
     padding: 20px 35px;
@@ -127,25 +154,6 @@ button {
 }
 /* End jumbotron layout */
 
-/* General content layout */
-.section-title {
-    display: inline;
-    font-size: 55px;
-    color: #024e76;
-    padding: 0 100px 20px 100px;
-    border-bottom: 3px solid;
-    border-color: #fce138;
-}
-
-.primary-border {
-    border-color: #fce138;
-}
-
-.secondary-border {
-    border-color: #39a6b2;
-}
-/* End general content layout */
-
 /* What we do layout */
 .intro {
     text-align: center;
@@ -195,3 +203,43 @@ button {
     font-size: 38px;
 }
 /* End what you do layout */
+
+/* Trainers styling */
+.trainers {
+    text-align: center;
+}
+
+.trainer {
+    width: 900px;
+    margin: 45px auto 30px auto;
+    background: #024e76;
+    color: #fce138;
+    overflow: auto;
+}
+
+.trainer img {
+    width: 35%;
+    float: left;
+}
+
+.trainer-bio {
+    padding: 35px;
+    float: left;
+    width: 65%;
+}
+
+.trainer-bio h3 {
+    font-size: 32px;
+    margin-bottom: 8px;
+}
+
+.trainer-bio h4 {
+    font-weight: lighter;
+    font-size: 26px;
+    margin-bottom: 25px;
+}
+
+.trainer-bio p {
+    font-size: 17px;
+    line-height: 1.3;
+}
