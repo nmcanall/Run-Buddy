@@ -102,8 +102,8 @@ footer a {
 }
 /* End footer layout */
 
-/* Jumbotron layout */
-.jumbotron {
+/* Hero layout */
+.hero {
     background-image: url("../images/hero-bg.jpg");
     height: 600px;
     background-size: cover;
@@ -111,7 +111,7 @@ footer a {
     position: relative;
 }
 
-.jumbo-form {
+.hero-form {
     background-color: #fce138;
     padding: 20px;
     width: 500px;
@@ -122,12 +122,12 @@ footer a {
     right: 140px;
 }
 
-.jumbo-form h3 {
+.hero-form h3 {
     font-size: 24px;
     margin: 0;
 }
 
-.jumbo-form p {
+.hero-form p {
     margin: 5px 0 15px 0;
 }
 
@@ -141,7 +141,7 @@ footer a {
     margin-bottom: 15px;
 }
 
-.jumbo-form {
+.hero-form {
     margin: 0 5px;
 }
 
@@ -152,7 +152,7 @@ button {
     padding: 10px 20px;
     font-size: 16px;
 }
-/* End jumbotron layout */
+/* End hero layout */
 
 /* What we do layout */
 .intro {
